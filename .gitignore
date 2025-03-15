@@ -1,0 +1,41 @@
+# Rust/Cargo 项目生成的忽略文件
+/target/
+Cargo.lock
+*.rustc_info.json
+
+# g++ 编译生成的中间文件和可执行文件
+*.lib
+*.exp
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.dSYM/
+*.pdb
+
+# 日志文件
+*.log
+*.txt
+
+# 临时文件和备份文件
+*~
+*.bak
+*.swp
+.DS_Store
+
+# IDE 相关
+.vscode/
+.idea/
+*.iml
+
+# 保留代码文件和配置文件
+!*.rs
+!*.c
+!*.cpp
+!*.h
+!*.toml
+!*.md
+!build.rs
